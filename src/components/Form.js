@@ -16,7 +16,11 @@ function Form() {
     other: "",
   });
 
-  const FormTitles = ["Sign Up", "Personal Info", "Other"];
+  const FormTitles = [
+    "Your Profile",
+    "Business Information",
+    "Additional Users",
+  ];
 
   const PageDisplay = () => {
     if (page === 0) {
@@ -36,9 +40,6 @@ function Form() {
         ></div>
       </div>
       <div className="form-container">
-        <div className="header">
-          <h1>{FormTitles[page]}</h1>
-        </div>
         <div className="body">{PageDisplay()}</div>
         <div className="footer">
           <button

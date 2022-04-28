@@ -1,116 +1,39 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
-
 .App {
-  background: rgb(255, 0, 228);
-  background: radial-gradient(
-    circle,
-    rgba(255, 0, 228, 1) 0%,
-    rgba(212, 51, 16, 1) 84%,
-    rgba(255, 0, 95, 1) 100%
-  );
-  width: 100vw;
-  height: 100vh;
-  display: grid;
-  place-items: center;
+
+  text-align: center;
 }
 
-body {
-  margin: 0%;
-  padding: 0%;
-  font-family: montserrat, arial, verdana;
-}
 
-.form {
-  width: 100%;
-  height: 100%;
+.container {
+  /* display: grid;
+  background-color: red;
+  height: 700px;
+  width: 900px;
+  /* grid-template-columns: 133px 133px;
+  grid-template-rows: 133px 133px 133px; */
+
+  /* grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(3,1fr);
+  row-gap: 20px;
+  column-gap: 20px; */ 
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-color: aqua;
+  height: 700px;
+  width: 900px;
 }
 
-.form-container {
-  width: 400px;
-  height: 400px;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
-  display: flex;
-  flex-direction: column;
-}
+/* .item {
+  background-color: aqua;
+  height: 122px;
+  width: 250px;
+} */
 
-.form-container .header {
-  flex: 20%;
-  display: grid;
-  place-items: center;
-}
+header {
 
-.form-container .body {
-  flex: 60%;
-}
-
-.form-container .footer {
-  flex: 20%;
-  display: flex;
-  justify-content: center;
-}
-
-.form-container .footer button {
-  border-radius: 7px;
-  width: 100px;
-  height: 40px;
-  background-color: rgb(255, 0, 140);
-  font-weight: bold;
-  color: white;
-  border: 0 none;
-  border-radius: 1px;
-  cursor: pointer;
-  padding: 10px 5px;
-  margin: 10px 5px;
-  margin: 5px;
-}
-
-.sign-up-container {
-  /* height: 100%;
-  width: 100%; */
-  display: flex;
-  flex-direction: row;
-  
-  /* justify-content: center;
-  align-items: center; */
-}
-
-.sign-up-container input {
-  margin: 5px;
-  width: 200px;
-  height: 40px;
-  padding-left: 5px;
-  font-size: 20px;
-}
-
-.personal-info-container {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.personal-info-container input {
-  margin: 5px;
-  width: 200px;
-  height: 40px;
-  padding-left: 5px;
-  font-size: 20px;
-}
-
-/* PROGRESS BAR */
-.progressbar {
-  width: 400px;
-  height: 10px;
-  background-color: white;
   margin-bottom: 50px;
+  
+
 }
 
 .progressbar div {
@@ -119,28 +42,9 @@ body {
   background-color: rgb(98, 0, 255);
 }
 
-.other-info-container {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.other-info-container input {
-  margin: 5px;
-  width: 200px;
-  height: 40px;
-  padding-left: 5px;
-  font-size: 20px;
-}
-
-input {
-  border: 2px solid rgb(98, 0, 255);
-  border-radius: 5px;
-}
-
-input:focus {
-  border: 3px solid rgb(98, 0, 255);
+.progressbar {
+  width: 400px;
+  height: 10px;
+  background-color: white;
+  margin-bottom: 50px;
 }
